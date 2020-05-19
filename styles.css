@@ -1,0 +1,44 @@
+body {
+    background-color: cadetblue;
+    padding-top: 3em;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.row {
+    width: 302px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* all 9 cells */
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background-color: chartreuse;
+    font-size: 75px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.left { 
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+
